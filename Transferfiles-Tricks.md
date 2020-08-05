@@ -63,9 +63,6 @@ En un script:
 >echo $webclient = New-Object System.Net.WebClient >> httpdownload.ps1
 >echo $webclient.DownloadFile("[Download URL]","[File Name]") >> httpdownload.ps1
 
-Una linea
->System.Net.WebClient.DownloadFile("[Download URL]","[File Name]")
-
 **Descargas de PowerShell: Start-BitsTransfer**
 Otra forma de descargar archivos con PowerShell es mediante el Servicio de transferencia inteligente en segundo plano (BITS).
 
